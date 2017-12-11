@@ -1,4 +1,8 @@
 //window.onload(...)
 $(document).ready(() => {
-    console.log("Estoy ready...");
+
 });
+
+function savePin() {
+    console.log("Nos llamaron");
+}
