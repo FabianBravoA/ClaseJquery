@@ -7,3 +7,11 @@
     height: 200px;
     width: auto;
 }
+
+.rear {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    opacity: 0;
+}
