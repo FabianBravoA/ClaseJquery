@@ -4,5 +4,10 @@ $(document).ready(() => {
 });
 
 function savePin() {
-    console.log("Nos llamaron");
+    var titulo = $("#tituloInput").val();
+    var descripcion = $("#descripcionInput").val();
+    var url = $("#urlInput").val();
+    console.log("Titulo > " + titulo);
+    console.log("descripcion > " + descripcion);
+    console.log("Url > " + url);
 }
