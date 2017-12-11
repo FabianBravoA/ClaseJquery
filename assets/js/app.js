@@ -8,8 +8,11 @@ function savePin() {
     var descripcion = $("#descripcionInput").val();
     var url = $("#urlInput").val();
 
-    $("#pines").html("<div class='panel panel-default'>" +
+    $("#pines").append("<div class='panel panel-success'>" +
+        "<div class='panel-heading'>" +
+        "<h3 class='panel-title'>" + titulo + "</h3>" +
+        "</div>" +
         "<div class = 'panel-body' >" +
-        "Panel content </div>" +
-        "<div class = 'panel-footer' > Panel footer </div> </div>");
+        "</div>" +
+        "<div class = 'panel-footer' >" + descripcion + "</div> </div>");
 };
