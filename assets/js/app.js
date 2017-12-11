@@ -8,7 +8,7 @@ function savePin() {
     var descripcion = $("#descripcionInput").val();
     var url = $("#urlInput").val();
 
-    $("#pines").append("<div class='panel panel-success'>" +
+    $("#pines").append("<div class='panel panel-success col-md-3 pin'>" +
         "<div class='panel-heading'>" +
         "<h3 class='panel-title'>" + titulo + "</h3>" +
         "</div>" +
